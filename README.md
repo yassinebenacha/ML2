@@ -105,7 +105,7 @@ Q(s,a) ← Q(s,a) + α[r + γ Q(s',a') - Q(s,a)]
 -Table de valeurs : (500 états)
 
 ### 📂 Structure du Repository
-
+  ```bash
 MLII_RL_TP/
 ├── TP1/                  # Découverte OpenAI Gym
 ├── TP2/                  # Q-Learning FrozenLake
@@ -113,6 +113,7 @@ MLII_RL_TP/
 ├── TP4/                  # PPO Taxi-v3
 ├── requirements.txt       # Dépendances
 └── README.md             # Ce fichier
+  ```
 
 ### 🛠️ Installation
 1. Cloner le repository :

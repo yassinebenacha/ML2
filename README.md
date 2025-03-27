@@ -39,7 +39,7 @@ TP1/
   ```
 ---
 
-### ❄️ TP2 - Q-Learning avec FrozenLake
+## ❄️ TP2 - Q-Learning avec FrozenLake
 
 ### Objectifs
 -Implémenter l'algorithme Q-Learning
@@ -60,6 +60,43 @@ TP1/
 |Taux de réussite (aléatoire)      | 1.5% |
 |Taux de réussite (après Q-Learning) |75% |
 |Épisodes d'entraînement             | 5000 |
+
+## 🚦 TP3 - Optimisation des Feux de Circulation
+
+### Comparaison Q-Learning vs SARSA
+
+  ```bash
+  # Q-Learning (off-policy)
+Q(s,a) ← Q(s,a) + α[r + γ max Q(s',a') - Q(s,a)]
+
+# SARSA (on-policy) 
+Q(s,a) ← Q(s,a) + α[r + γ Q(s',a') - Q(s,a)]
+  ```
+
+### Performances
+
+|Algorithme	   |Réduction Temps d'Attente|
+---------------|-------------------------|
+|Q-Learning	   |82%|
+|SARSA	       |78%|
+
+## 🚖 TP4 - PPO avec Taxi-v3
+
+### Proximal Policy Optimization
+
+#### Fonction objectif avec clipping :
+
+  ```bash
+  L(θ) = 𝔼[min(r_t(θ)A_t, clip(r_t(θ), 1-ε, 1+ε)A_t)]
+  ```
+
+#### Résultats
+
+| Phase               | Taux de Réussite | Steps Moyens |
+|---------------------|------------------|--------------|
+| Avant entraînement  | 0%               | 200+         |
+| Après 1000 épisodes | 92%              | 15.2         |
+
 
 ### Architecture
 

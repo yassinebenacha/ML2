@@ -36,3 +36,14 @@ TP1/
 ├── exercice1_env_exploration.py
 ├── exercice2_rewards_analysis.py
 └── exercice3_manual_control.py
+
+### ❄️ TP2 - Q-Learning avec FrozenLake
+
+### Objectifs
+Implémenter l'algorithme Q-Learning
+
+Comprendre l'exploration vs exploitation
+
+Analyser la convergence de la Q-table
+
+Algorithmes Clés

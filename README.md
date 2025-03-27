@@ -39,7 +39,7 @@ TP1/
   ```
 ---
 
-## ❄️ TP2 - Q-Learning avec FrozenLake
+## ❄️TP2 - Q-Learning avec FrozenLake
 
 ### Objectifs
 -Implémenter l'algorithme Q-Learning

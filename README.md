@@ -84,7 +84,7 @@ Q(s,a) ← Q(s,a) + α[r + γ Q(s',a') - Q(s,a)]
 
 ### Proximal Policy Optimization
 
-#### Fonction objectif avec clipping :
+### Fonction objectif avec clipping :
 
   ```bash
   L(θ) = 𝔼[min(r_t(θ)A_t, clip(r_t(θ), 1-ε, 1+ε)A_t)]
@@ -128,21 +128,21 @@ MLII_RL_TP/
   ```bash
   python TP1/exercice1.py
   ```
-### 📚 Ressources
+## 📚 Ressources
 
-#### 1.Documentation :
+### 1.Documentation :
 
 -[OpenAI Gymnasium] (https://gymnasium.farama.org/)
 
 -[Stable Baselines3] (https://stable-baselines3.readthedocs.io/en/master/)
 
-#### 2.Livres :
+### 2.Livres :
 
 -* "Reinforcement Learning: An Introduction" - Sutton & Barto
 
 -* "Deep Reinforcement Learning Hands-On" - Maxim Lapan
 
-#### Articles :
+### Articles :
 
 * Proximal Policy Optimization (PPO) - Schulman et al. 2017
 

@@ -61,6 +61,8 @@ TP1/
 |Taux de réussite (après Q-Learning) |75% |
 |Épisodes d'entraînement             | 5000 |
 
+---
+
 ## 🚦 TP3 - Optimisation des Feux de Circulation
 
 ### Comparaison Q-Learning vs SARSA
@@ -79,6 +81,8 @@ Q(s,a) ← Q(s,a) + α[r + γ Q(s',a') - Q(s,a)]
 ---------------|-------------------------|
 |Q-Learning	   |82%|
 |SARSA	       |78%|
+
+---
 
 ## 🚖 TP4 - PPO avec Taxi-v3
 
@@ -128,6 +132,8 @@ MLII_RL_TP/
   ```bash
   python TP1/exercice1.py
   ```
+---
+
 ## 📚 Ressources
 
 ### 1.Documentation :

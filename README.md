@@ -30,13 +30,7 @@
 - Performance des actions aléatoires : ~20 pas avant échec
 - Visualisation des états et récompenses
 
-### Fichiers Principaux
-```bash
-TP1/
-├── exercice1_env_exploration.py
-├── exercice2_rewards_analysis.py
-└── exercice3_manual_control.py
-```
+
 ---
 
 ## ❄️ TP2 - Q-Learning avec FrozenLake 
@@ -110,7 +104,7 @@ Q(s,a) ← Q(s,a) + α[r + γ Q(s',a') - Q(s,a)]
 
 ### 📂 Structure du Repository
   ```bash
-MLII_RL_TP/
+ML2/
 ├── TP1/                  # Découverte OpenAI Gym
 ├── TP2/                  # Q-Learning FrozenLake
 ├── TP3/                  # Feux de Circulation
@@ -130,7 +124,7 @@ MLII_RL_TP/
   ```
 3. Exécuter un TP :
   ```bash
-  python TP1/exercice1.py
+  python tp1.py
   ```
 ---
 

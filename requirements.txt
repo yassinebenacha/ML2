@@ -1,0 +1,20 @@
+# Requirements pour Machine Learning II - Reinforcement Learning
+# Année universitaire 2024/2025
+
+## Bibliothèques principales
+gymnasium==0.29.1          # Environnements RL pour tous les TP
+numpy==1.26.4              # Calcul numérique (tous les TP)
+matplotlib==3.8.2          # Visualisation (TP3, TP4)
+seaborn==0.13.1            # Visualisation avancée (TP4)
+
+## Bibliothèques spécifiques aux TP
+pygame==2.5.2              # Rendu graphique (TP1, TP2)
+tqdm==4.66.1               # Barres de progression (optionnel TP4)
+pandas==2.1.4              # Analyse des résultats (optionnel TP4)
+
+## Pour les environnements spécifiques
+gymnasium[toy_text]==0.29.1  # Pour FrozenLake-v1 et Taxi-v3 (TP2, TP4)
+
+## Optionnel pour le développement
+ipython==8.18.1            # Console interactive
+jupyter==1.0.0             # Notebooks (si utilisés)

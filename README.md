@@ -122,7 +122,7 @@ MLII_RL_TP/
 ### 🛠️ Installation
 1. Cloner le repository :
   ```bash
-  git clone https://github.com/votre-utilisateur/MLII_RL_TP.git
+  git clone https://github.com/votre-utilisateur/ML2.git
   ```
 2. Installer les dépendances :
   ```bash

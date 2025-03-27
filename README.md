@@ -9,7 +9,7 @@
 
 ## 📚 Table des Matières
 1. [TP1 - Découverte d'OpenAI Gym](#-tp1---découverte-dopenai-gym)
-2. [TP2 - Q-Learning avec FrozenLake](#-tp2-q-learning-avec-frozenlake)
+2. [TP2 - Q-Learning avec FrozenLake](#-tp2---q-learning-avec-frozenlake)
 3. [TP3 - Optimisation des Feux de Circulation](#-tp3---optimisation-des-feux-de-circulation)
 4. [TP4 - PPO avec Taxi-v3](#-tp4---ppo-avec-taxi-v3)
 5. [Structure du Repository](#-structure-du-repository)
@@ -39,7 +39,7 @@ TP1/
 ```
 ---
 
-## ❄️ TP2 - Q-Learning avec FrozenLake {#tp2-q-learning-avec-frozenlake}
+## ❄️ TP2 - Q-Learning avec FrozenLake 
 
 ### Objectifs
 -Implémenter l'algorithme Q-Learning
